@@ -9,8 +9,8 @@ const assertEqual = function(actual, expected) {
 const findKeyByValue = function(obj, objValue) {
   let keys = Object.keys(obj);
   let index = 0;
-  for (var filmType in obj) {
-    var str = obj[filmType];
+  for (let filmType in obj) {
+    let str = obj[filmType];
     if (str === objValue) {
       return keys[index];
     }
