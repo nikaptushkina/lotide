@@ -7,6 +7,7 @@ const assertArraysEqual = function(actual, expected) {
       }
     };
 
+// EXPORT 
 module.exports = assertArraysEqual;
 
 /*

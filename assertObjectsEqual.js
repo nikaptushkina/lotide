@@ -27,4 +27,5 @@ const assertObjectsEqual = function(actual, expected) {
 
 assertObjectsEqual(eqObjects([1, 2, 3], [1, 2, 3]), true); // => true
 
-// need to ask question about result type error
+// EXPORT
+module.exports = assertObjectsEqual;
