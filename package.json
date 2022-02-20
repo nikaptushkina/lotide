@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@nikaptushkina/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "nika's lotide",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/nikaptushkina/lotide.git"
   },
-  "author": "",
+  "author": "Nika Ptushkina",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nikaptushkina/lotide/issues"
