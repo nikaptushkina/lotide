@@ -1,3 +1,4 @@
+// FUNCTION
 const flatten = function(array) {
   let flattenedArray = [];
   for (let i = 0; i < array.length; i++) {
@@ -12,4 +13,5 @@ const flatten = function(array) {
   return flattenedArray;
 };
 
+// EXPORT
 module.exports = flatten;

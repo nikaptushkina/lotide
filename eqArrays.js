@@ -10,7 +10,7 @@ const eqArrays = function(array1, array2) {
     if (!(Array.isArray(array1[i])) && array1[i] !== array2[i]) {
       return false;
     }
-  } 
+  }
   return true;
 };
 

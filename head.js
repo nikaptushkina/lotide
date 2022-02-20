@@ -1,7 +1,7 @@
 // FUNCTION
-function head(array) {
+const head = function(array) {
   return array[0];
-}
+};
 
 // EXPORT
 module.exports = head;

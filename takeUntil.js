@@ -1,10 +1,10 @@
-// will take 2 parametes: arrya; callback or predicate
-const eqArrays = require('./eqArrays');
-const assertArraysEqual =require('./assertArraysEqual');
+// REQUIREMENTS
+const assertArraysEqual = require('./assertArraysEqual');
 
+// FUNCTION
 const takeUntil = function(array, callback) {
   let results = [];
-  for (let i=0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (callback(array[i])) {
       results = array.slice(0, i);
       return results;
@@ -25,3 +25,6 @@ console.log(results2);
 
 assertArraysEqual(results1, data1.slice(0, 5));
 assertArraysEqual(results2, data2.slice(0, 4));
+
+// EXPORT
+module.exports = takeUntil;
